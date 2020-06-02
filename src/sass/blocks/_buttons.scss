@@ -1,0 +1,15 @@
+.button {
+    margin-top: 39px;
+    width: 241px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700; // посмотреть начертания
+    text-transform: uppercase;
+    &:hover {
+        box-shadow: 0px 0px 10px $main-color;
+    }
+}

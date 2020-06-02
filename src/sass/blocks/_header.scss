@@ -1,0 +1,45 @@
+.header {
+    padding: 19px 0 19px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__img {
+        margin-right: 11px;
+    }
+    &__header {
+        color: #242424;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 0;
+        line-height: 14px;
+    }
+    &__phone {
+        display: block;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        &:hover {
+            color: #242424;
+        }
+    }
+    &__email {
+        display: block;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        &:hover {
+            color: #242424;
+        }
+    }
+    &__addr {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+}
