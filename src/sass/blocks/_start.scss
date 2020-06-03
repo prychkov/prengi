@@ -1,0 +1,70 @@
+.start {
+    padding: 80px 0 80px 0;
+    &__img {
+        position: relative;
+        margin: 0 auto;
+        width: 302px;
+        height: 302px;
+        img {
+            width: 100%;
+        }
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 1px;
+            background-color: $main-color;
+            &:nth-child(2) {
+                width: 1px;
+                height: 40px;
+            }
+            &:nth-child(3) {
+                width: 1px;
+                height: 40px;
+                top: auto;
+                bottom: 0;
+                left: 0;
+            }
+            &:nth-child(4) {
+                top: auto;
+                bottom: 0;
+                left: 0;
+            }
+            &:nth-child(5) {
+                width: 1px;
+                height: 40px;
+                left: auto;
+                right: 0;
+            }
+            &:nth-child(6) {
+                width: 40px;
+                height: 1px;
+                left: auto;
+                right: 0;
+            }
+            &:nth-child(7) {
+                width: 1px;
+                height: 40px;
+                top: auto;
+                left: auto;
+                bottom: 0;
+                right: 0;
+            }
+            &:nth-child(8) {
+                width: 40px;
+                height: 1px;
+                top: auto;
+                left: auto;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+    .title {
+        &_dark {
+            margin: 0 auto;
+            margin-top: 74px;
+        }
+    }
+}
