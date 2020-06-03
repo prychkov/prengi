@@ -1,0 +1,35 @@
+.options {
+    padding: 79px 0 220px 0;
+    min-height: 580px;
+    background: url('../../img/options/bg_options.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__items {
+        margin: 0 82.5px 0 82.5px;
+        margin-top: 128px;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: right;
+        &_right {
+            text-align: left;
+        }
+    }
+    &__descr {
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: right;
+        &_right {
+            text-align: left;
+        }
+    }
+}
