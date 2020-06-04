@@ -2,6 +2,7 @@
     padding: 81px 0 80px 0;
     &__wrapper {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         margin-top: 44px;
     }
@@ -14,7 +15,7 @@
     }
     &__descr {
         position: absolute;
-        width: 570px;
+        width: 100%;
         top: 50%;
         transform: translateY(-50%);
         left: 0;

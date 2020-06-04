@@ -1,0 +1,85 @@
+@media (max-width: 1200px) {
+    .header {
+        padding: 19px 5px 19px 5px;
+        &__phone {
+            font-size: 11px;
+        }
+        &__email {
+            font-size: 11px;
+        }
+        &__addr {
+            font-size: 11px;
+        }
+    }
+    .promo {
+        padding: 0 20px 0 20px;
+        &__offer {
+            margin-top: 107px;
+        }
+        &__carousel {
+            margin-top: 30px;
+        }
+    }
+    .with-prengi {
+        padding: 65px 20px 65px 20px;
+        &__items {
+            justify-content: space-around;
+        }
+        &__item {
+            width: 300px;
+        }
+        &__arrow-down {
+            margin-top: 37px;
+        }
+    }
+    .solution {
+        min-height: 805px;
+        padding: 65px 0 61px 0;
+        &__carousel {
+            width: 800px;
+        }
+        .slick-next {
+            left: 829px
+        }
+    }
+    .advantages {
+        padding: 70px 20px 80px 20px;
+        &__items {
+            width: 465px;
+        }
+    }
+    .options {
+        padding: 65px 0 150px 0;
+        min-height: 520px;
+        &__subtitle {
+            font-size: 25px;
+        }
+        &__descr {
+            width: 400px;
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .start {
+        padding: 70px 0 70px 0;
+    }
+    .footer {
+        padding: 49px 20px 40px 20px;
+
+        &__items {
+            &:nth-child(1) {
+                margin-right: 80px;
+            }
+            &:nth-child(4) {
+                width: 137px;
+            }
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__link {
+            font-size: 13px;
+        }
+    }
+}
