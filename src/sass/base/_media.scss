@@ -325,3 +325,124 @@
         }
     }
 }
+@media (max-width: 767px) {
+    .header {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__items {
+            &:nth-child(5) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .promo {
+        min-height: 850px;
+        &__logo {
+            margin-top: 25px;
+            width: 100px;
+        }
+        &__menu {
+            margin-top: 40px;
+            width: 390px;
+            ul {
+                li {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__offer {
+            margin-top: 35px;
+        }
+        &__title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+        }
+        &__descr {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .button {
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 185px;
+            height: 45px;
+            font-size: 13px;
+        }
+        &__carousel {
+            margin: 0 auto;
+            margin-top: 35px;
+            width: 250px;
+            .slick-dots {
+                bottom: -25px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .with-prengi {
+        padding: 45px 20px 45px 20px;
+        &__items {
+            flex-direction: column;
+            &:nth-of-type(3) {
+                margin-top: 20px;
+            }
+        }
+        &__item {
+            margin: 10px 0 10px 0;
+        }
+        &__arrow-down {
+            margin-top: 20px;
+        }
+    }
+    .title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .solution {
+        min-height: 630px;
+        &__menu {
+            width: 100%;
+            ul {
+                li {
+                    a {
+                        font-size: 11px;
+                    }
+                    &::after {
+                        margin: 0 10px 0 10px;
+                    }
+                }
+            }
+        }
+        &__carousel {
+            width: 500px;
+        }
+    }
+    .options {
+        padding: 50px 0 65px 0;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__items {
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .footer {
+        padding: 40px 20px 35px 20px;
+    }
+}
