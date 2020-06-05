@@ -336,12 +336,25 @@
                 margin-top: 20px;
             }
         }
+        &__phone {
+            &:hover {
+                cursor: auto;
+            }
+        }
+        &__email {
+            &:hover {
+                cursor: auto;
+            }
+        }
     }
     .promo {
         min-height: 850px;
         &__logo {
             margin-top: 25px;
             width: 100px;
+            &:hover {
+                cursor: auto;
+            }
         }
         &__menu {
             margin-top: 40px;
@@ -350,6 +363,9 @@
                 li {
                     a {
                         font-size: 11px;
+                        &:hover {
+                            cursor: auto;
+                        }
                     }
                 }
             }
@@ -370,13 +386,6 @@
             margin-top: 10px;
             text-align: center;
         }
-        .button {
-            margin: 0 auto;
-            margin-top: 20px;
-            width: 185px;
-            height: 45px;
-            font-size: 13px;
-        }
         &__carousel {
             margin: 0 auto;
             margin-top: 35px;
@@ -385,7 +394,24 @@
                 bottom: -25px;
                 left: 50%;
                 transform: translateX(-50%);
+                li {
+                    button {
+                        &:hover {
+                            cursor: auto;
+                        }
+                    }
+                }
             }
+        }
+    }
+    .button {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 185px;
+        height: 45px;
+        font-size: 13px;
+        &:hover {
+            cursor: auto;
         }
     }
     .with-prengi {
@@ -415,6 +441,9 @@
                 li {
                     a {
                         font-size: 11px;
+                        &:hover {
+                            cursor: auto;
+                        }
                     }
                     &::after {
                         margin: 0 10px 0 10px;
@@ -424,6 +453,13 @@
         }
         &__carousel {
             width: 500px;
+            .slick-dots {
+                li {
+                    button {
+                        cursor: auto;
+                    }
+                }
+            }
         }
     }
     .options {
@@ -442,7 +478,168 @@
             text-align: center;
         }
     }
+
     .footer {
         padding: 40px 20px 35px 20px;
+        &__logo {
+            &:hover {
+                cursor: auto;
+            }
+        }
+        &__link {
+            &:hover {
+                cursor: auto;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        &__wrapper {
+            align-items: center;
+        }
+        &__items {
+            &:nth-child(3), &:nth-child(4) {
+                margin-top: 20px;
+            }
+        }
+    }
+    .promo {
+        min-height: 830px;
+        padding: 0;
+        &__header {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__menu {
+            margin-top: 25px;
+            width: 315px;
+            ul {
+                li {
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        &__offer {
+            margin-top: 20px;
+        }
+        &__title {
+            font-size: 23px;
+            line-height: 28px;
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 23px;
+        }
+    }
+    .button {
+        margin-top: 15px;
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .with-prengi {
+        padding: 40px 20px 40px 20px;
+        &__arrow-down {
+            margin-top: 10px;
+            width: 100px;
+            height: 43px;
+        }
+        &__title {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+    }
+    .solution {
+        padding: 40px 0 40px 0;
+        &__menu {
+            margin-top: 15px;
+            width: 150px;
+            height: 250px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 250px;
+                li {
+                    a {
+                        font-size: 13px;
+                        padding: 5px 0 5px 0;    
+                    }
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+        &__carousel {
+            width: 300px;
+            .slick-dots {
+                li {
+                    button {
+                        width: 7px;
+                        height: 7px;
+                    }
+                }
+            }
+        }
+    }
+    .title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .advantages {
+        padding: 40px 20px 50px 20px;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 17px;
+        }
+    }
+    .options {
+        min-height: 350px;
+        padding: 40px 1px 55px 1px;
+        &__items {
+            margin-top: 15px;
+        }
+        &__descr {
+            width: 100%;
+        }
+    }
+    .start {
+        padding: 40px 0 40px 0;
+    }
+    .footer {
+        &__items {
+            &:nth-child(1) {
+                width: 100%;
+            }
+            &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                margin-top: 20px;
+            }
+        }
+        &__logo {
+            width: 120px;
+            height: 40px;
+            img {
+                height: 100%;
+            }
+        }
+        &__descr {
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        hr {
+            margin-top: 15px;
+        }
+        &__right {
+            margin-top: 15px;
+        }
     }
 }
