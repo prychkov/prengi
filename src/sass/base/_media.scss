@@ -566,9 +566,9 @@
                 align-items: center;
                 height: 250px;
                 li {
+                    padding: 5px 0 5px 0;
                     a {
-                        font-size: 13px;
-                        padding: 5px 0 5px 0;    
+                        font-size: 13px;  
                     }
                     &::after {
                         content: none;
